@@ -10,6 +10,9 @@ import heroStyles from './hero.module.css'
 
 function BlogPost({ data, location }) {
 const siteTitle = `Test`
+if (!data) {
+  return null
+}
     return (
       <Layout location={location}>
         <div style={{ background: '#fff' }}>
