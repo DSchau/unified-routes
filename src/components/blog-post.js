@@ -9,10 +9,7 @@ import Layout from './layout'
 import heroStyles from './hero.module.css'
 
 function BlogPost({ data, location }) {
-const siteTitle = `Test`
-if (!data) {
-  return null
-}
+    const siteTitle = `Test`
     return (
       <Layout location={location}>
         <div style={{ background: '#fff' }}>
